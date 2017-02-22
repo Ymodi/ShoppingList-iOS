@@ -48,80 +48,95 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-wF-YqB">
-                                <rect key="frame" x="16" y="146" width="202" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of your item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-wF-YqB">
+                                <rect key="frame" x="16" y="146" width="233.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7e2-8s-xJ5">
-                                <rect key="frame" x="226" y="149" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7e2-8s-xJ5">
+                                <rect key="frame" x="257.5" y="149" width="10.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ThF-lh-8MI">
                                 <rect key="frame" x="279" y="145" width="94" height="29"/>
+                                <connections>
+                                    <action selector="UIStepperItem:" destination="BYZ-38-t0r" eventType="valueChanged" id="mOW-Yk-zSt"/>
+                                </connections>
                             </stepper>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VEl-X8-FBn">
-                                <rect key="frame" x="16" y="183" width="202" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of your item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VEl-X8-FBn">
+                                <rect key="frame" x="16" y="183" width="233.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k79-N5-kcN">
-                                <rect key="frame" x="226" y="186" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k79-N5-kcN">
+                                <rect key="frame" x="257.5" y="186" width="10.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="U07-LG-INV">
                                 <rect key="frame" x="279" y="182" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepperItem2:" destination="BYZ-38-t0r" eventType="valueChanged" id="eW4-or-Ugb"/>
+                                </connections>
                             </stepper>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eWU-wR-5f7">
-                                <rect key="frame" x="16" y="224" width="202" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of your item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eWU-wR-5f7">
+                                <rect key="frame" x="16" y="224" width="233.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ra9-cQ-YrR">
-                                <rect key="frame" x="226" y="227" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ra9-cQ-YrR">
+                                <rect key="frame" x="257.5" y="227" width="10.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="soM-OK-atd">
                                 <rect key="frame" x="279" y="223" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepper3:" destination="BYZ-38-t0r" eventType="valueChanged" id="MwR-Cb-zmN"/>
+                                </connections>
                             </stepper>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="frd-lJ-mfB">
-                                <rect key="frame" x="16" y="263" width="202" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of your item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="frd-lJ-mfB">
+                                <rect key="frame" x="16" y="263" width="233.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoJ-0z-dVb">
-                                <rect key="frame" x="226" y="266" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoJ-0z-dVb">
+                                <rect key="frame" x="257.5" y="266" width="10.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="wYG-52-H5t">
                                 <rect key="frame" x="279" y="262" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepper4:" destination="BYZ-38-t0r" eventType="valueChanged" id="wLF-PG-DVf"/>
+                                </connections>
                             </stepper>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7KO-WS-Vmp">
-                                <rect key="frame" x="15" y="300" width="202" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of your item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7KO-WS-Vmp">
+                                <rect key="frame" x="15" y="300" width="233.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaE-wa-Idd">
-                                <rect key="frame" x="226" y="303" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaE-wa-Idd">
+                                <rect key="frame" x="257.5" y="303" width="10.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-Kd-poA">
                                 <rect key="frame" x="279" y="299" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepper5:" destination="BYZ-38-t0r" eventType="valueChanged" id="KeE-Mx-DGO"/>
+                                </connections>
                             </stepper>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoB-Pn-f7O">
                                 <rect key="frame" x="16" y="366" width="138" height="30"/>
@@ -129,10 +144,16 @@
                                     <constraint firstAttribute="width" constant="138" id="mqx-0G-mqv"/>
                                 </constraints>
                                 <state key="normal" title="SAVE"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C1J-M3-Y4k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQr-QP-AuT">
                                 <rect key="frame" x="221" y="366" width="138" height="30"/>
                                 <state key="normal" title="CANCEL"/>
+                                <connections>
+                                    <action selector="canelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpt-wu-3Tx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -189,6 +210,19 @@
                             <constraint firstItem="2Q3-AR-RbA" firstAttribute="top" secondItem="4vA-sK-eTF" secondAttribute="bottom" constant="18" id="zC7-l9-Kry"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="item1" destination="fhF-wF-YqB" id="dfo-ug-Qyk"/>
+                        <outlet property="item2" destination="VEl-X8-FBn" id="O0g-db-CyJ"/>
+                        <outlet property="item3" destination="eWU-wR-5f7" id="9Um-6Q-m16"/>
+                        <outlet property="item4" destination="frd-lJ-mfB" id="7Q1-dF-2eJ"/>
+                        <outlet property="item5" destination="7KO-WS-Vmp" id="M8O-6F-hIB"/>
+                        <outlet property="lbl2" destination="k79-N5-kcN" id="OIg-vw-vba"/>
+                        <outlet property="lbl3" destination="ra9-cQ-YrR" id="UX8-qm-pQ3"/>
+                        <outlet property="lbl4" destination="EoJ-0z-dVb" id="oWG-se-qYa"/>
+                        <outlet property="lbl5" destination="VaE-wa-Idd" id="pST-Ow-tO6"/>
+                        <outlet property="qutLblItem" destination="7e2-8s-xJ5" id="KYt-Zw-8s1"/>
+                        <outlet property="shoppingListName" destination="4vA-sK-eTF" id="jWX-YF-mt1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
