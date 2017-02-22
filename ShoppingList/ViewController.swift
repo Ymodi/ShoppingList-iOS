@@ -2,9 +2,14 @@
 //  ViewController.swift
 //  ShoppingList
 //
+//  Student ID- 300895482
+// Purpose: To connect storyboard elements as actions and outlets and get user input , Perform functionality on SAVE and CANCLE button
 //  Created by Yesha Modi on 2017-02-21.
 //  Copyright © 2017 Yesha Modi-300895482. All rights reserved.
 //
+
+
+
 
 import UIKit
 
@@ -56,6 +61,7 @@ class ViewController: UIViewController {
     @IBAction func saveButton(_ sender: UIButton) {
         
        print ("Hello")
+        //Calling and Alert function named 'showMyAlert()' of tap of save
         showMyAlert()
         
     }
@@ -63,6 +69,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var shoppingListName: UITextField!
     
     @IBAction func canelButton(_ sender: UIButton) {
+        
+        //Setting data to the nil and default for all text,label fields
         
        item1.text = nil
        item2.text = nil
@@ -87,6 +95,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func showMyAlert(){
+        
+        //Creating a alertController to perform Alert on click of save
         let alertController = UIAlertController(title: "Shopping List", message: "Your list has been saved!", preferredStyle: .alert)
         
         let okButton = UIAlertAction(title: "OK",style: .default, handler: nil)
@@ -97,6 +107,8 @@ class ViewController: UIViewController {
         self.present(alertController, animated:true, completion: nil)
     
     }
+    
+    
 
 }
 
