@@ -56,6 +56,7 @@ class ViewController: UIViewController {
     @IBAction func saveButton(_ sender: UIButton) {
         
        print ("Hello")
+        showMyAlert()
         
     }
     
@@ -85,7 +86,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    func showMyAlert(){
+        let alertController = UIAlertController(title: "Shopping List", message: "Your list has been saved!", preferredStyle: .alert)
+        
+        let okButton = UIAlertAction(title: "OK",style: .default, handler: nil)
+        
+        alertController.addAction(okButton)
+        
+        //Built-In view controller class which is a subclass of UI view controller
+        self.present(alertController, animated:true, completion: nil)
+    
+    }
 
 }
 
